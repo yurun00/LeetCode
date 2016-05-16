@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3Sum.h" />
+    <ClInclude Include="LongestPalindromicSubstring.h" />
+    <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="3Sum.cpp" />
+    <ClCompile Include="LongestPalindromicSubstring.cpp" />
+    <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{57E2A974-F29B-4D77-9A95-E1114E1DDC2D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,8 +155,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
