@@ -24,6 +24,9 @@
     <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MedianOfTwoSortedArrays.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp">
@@ -33,6 +36,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MedianOfTwoSortedArrays.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

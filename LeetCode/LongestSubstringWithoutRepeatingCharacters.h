@@ -10,7 +10,7 @@ We have:
 |							or the last charactor that equals to S[i+1] in S.substring(0,i)
 -|							shows before the LSWRC ending with S[i].
 |
-|-	CL[i+1] = i + 1 - V[i+1],	else.
+|-	CL[i+1] = i + 1 - V[S[i+1]],	else.
 Then our return value equals to CL.maxValue().
 */
 
