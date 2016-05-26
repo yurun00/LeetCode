@@ -4,7 +4,7 @@ Find the median of the two sorted arrays.
 The overall run time complexity should be O(log (m+n)).
 */
 
-#include <iostream>
+/*#include <iostream>
 #include "MedianOfTwoSortedArrays.h"
 using namespace std;
 
@@ -17,4 +17,4 @@ int main() {
 
 	cout << Solution::findMedianSortedArrays(vi1, vi2) << endl;
 	return 0;
-}
+}*/

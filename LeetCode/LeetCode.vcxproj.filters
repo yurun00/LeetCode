@@ -27,6 +27,9 @@
     <ClInclude Include="MedianOfTwoSortedArrays.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RegularExpressionMatching.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp">
@@ -39,6 +42,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MedianOfTwoSortedArrays.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularExpressionMatching.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
