@@ -17,18 +17,19 @@ isMatch("ab", ".*") ¡ú true
 isMatch("aab", "c*a*b") ¡ú true
 */
 
-#include <iostream>
+/*#include <iostream>
 #include "RegularExpressionMatching.h"
 using namespace std;
 
 int main() {
-	//cout << Solution::isMatch("aa", "a") << endl;
-	//cout << Solution::isMatch("aa", "aa") << endl;
-	//cout << Solution::isMatch("aaa", "aa") << endl;
-	//cout << Solution::isMatch("aa", "a*") << endl;
-	//cout << Solution::isMatch("aa", ".*") << endl;
-	//cout << Solution::isMatch("ab", ".*") << endl;
-	//cout << Solution::isMatch("aab", "c*a*b") << endl;
+	cout << Solution::isMatch("aa", "a") << endl;
+	cout << Solution::isMatch("aa", "aa") << endl;
+	cout << Solution::isMatch("aaa", "aa") << endl;
+	cout << Solution::isMatch("aa", "a*") << endl;
+	cout << Solution::isMatch("aa", ".*") << endl;
+	cout << Solution::isMatch("ab", ".*") << endl;
+	cout << Solution::isMatch("aab", "c*a*b") << endl;
+
 	cout << Solution::isMatchDP("aa", "a") << endl;
 	cout << Solution::isMatchDP("aa", "aa") << endl;
 	cout << Solution::isMatchDP("aaa", "aa") << endl;
@@ -37,4 +38,4 @@ int main() {
 	cout << Solution::isMatchDP("ab", ".*") << endl;
 	cout << Solution::isMatchDP("aab", "c*a*b") << endl;
 	return 0;
-}
+}*/
