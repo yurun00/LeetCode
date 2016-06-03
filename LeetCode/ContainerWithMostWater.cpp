@@ -6,7 +6,7 @@ Find two lines, which together with x-axis forms a container, such that the cont
 Note: You may not slant the container.
 */
 
-#include <iostream>
+/*#include <iostream>
 #include "ContainerWithMostWater.h"
 using namespace std;
 
@@ -15,4 +15,4 @@ int main() {
 	vector<int> height(ary, ary + sizeof(ary) / sizeof(int));
 	cout << Solution::maxArea(height) << endl;
 	return 0;
-}
+}*/

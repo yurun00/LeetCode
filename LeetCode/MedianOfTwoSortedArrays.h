@@ -1,31 +1,31 @@
 #pragma once
 
 /*
-Given two sorted arrays nums1 and nums2 of size m and n respectively, we need to find the median of the two sorted arrays.
-The overall run time complexity should be O(log (m+n)).
-First find the medians of the two sorted arrays respectively named med1 and med2. Then compare these two numbers, WLOG,
-presuming that med1 > med2. Then any number following med1 in nums1 and ahead of med2 in nums2 is not possible to be the
-median of the two arrays. Compare the lengths of these two half arrays and store the shorter one in variable cutLen. The
-two arrays should be cut the length of cutLen from the begin of array nums1 and the end of array nums2. As follows:
-
------------------|-------|->The sub-array does not contain the median.
-nums1: |-----------------|
-----------------|->med1
-(med1 > med2)
--------|--|->The sub-array does not contain the median and is equal to length of cutLen.
-nums2: |-------|
------------|->med2
-
-Then cut the two arrays:
-----------------------|--|->cutLen
-nums1: |--------------|
-----------------|->med1
--------|--|->cutLen
-nums2:    |----|
------------|->med2
-Then do the same thing to nums1 and nums2 until the recursion end. In the case above, nums2 is always the array to be cut.
-The overall run time complexity is O(log (min (m, n)));
-*/
+ * Given two sorted arrays nums1 and nums2 of size m and n respectively, we need to find the median of the two sorted arrays.
+ * The overall run time complexity should be O(log (m+n)).
+ * First find the medians of the two sorted arrays respectively named med1 and med2. Then compare these two numbers, WLOG,
+ * presuming that med1 > med2. Then any number following med1 in nums1 and ahead of med2 in nums2 is not possible to be the
+ * median of the two arrays. Compare the lengths of these two half arrays and store the shorter one in variable cutLen. The
+ * two arrays should be cut the length of cutLen from the begin of array nums1 and the end of array nums2. As follows:
+ *
+ * -----------------|-------|->The sub-array does not contain the median.
+ * nums1: |-----------------|
+ * ----------------|->med1
+ * (med1 > med2)
+ * -------|--|->The sub-array does not contain the median and is equal to length of cutLen.
+ * nums2: |-------|
+ * -----------|->med2
+ *
+ * Then cut the two arrays:
+ * ----------------------|--|->cutLen
+ * nums1: |--------------|
+ * ----------------|->med1
+ * -------|--|->cutLen
+ * nums2:    |----|
+ * -----------|->med2
+ * Then do the same thing to nums1 and nums2 until the recursion end. In the case above, nums2 is always the array to be cut.
+ * The overall run time complexity is O(log (min (m, n)));
+ */
 
 #include <vector>
 #include <algorithm>

@@ -1,8 +1,8 @@
 #pragma once
 
 /*
-Manacher Algorithm
-*/
+ * Manacher Algorithm
+ */
 
 #include <string>
 #include <algorithm>

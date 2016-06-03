@@ -21,14 +21,15 @@ public:
 	}
 
 	static bool isMatchDP(string s, string p) {
-		/**
-		* m[i][j]: if s[0,...,i-1] matches p[0,...,j-1];
-		* if p[j-1] != '*'
-		*	m[i][j] = (s[i-1] == p[j-1] || p[j-1] == '.') && m[i-1][j-1];
-		* else, p[j-1] == '*'
-		*	m[i][j] = m[i][j-2], if p[j-2] repeats 0 times
-		*	|| (s[i-1] == p[j-2] || p[j-2] == '.') && m[i-1][j], if p[j-2] repeats > 0 times
-		**/
+
+		/*
+		 * m[i][j]: if s[0,...,i-1] matches p[0,...,j-1];
+		 * if p[j-1] != '*'
+		 *	 m[i][j] = (s[i-1] == p[j-1] || p[j-1] == '.') && m[i-1][j-1];
+		 * else, p[j-1] == '*'
+		 *	 m[i][j] = m[i][j-2], if p[j-2] repeats 0 times
+		 *	 || (s[i-1] == p[j-2] || p[j-2] == '.') && m[i-1][j], if p[j-2] repeats > 0 times
+		 */
 		if (p[0] == '*')
 			return false;
 
