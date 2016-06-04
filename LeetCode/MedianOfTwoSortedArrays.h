@@ -29,11 +29,10 @@
 
 #include <vector>
 #include <algorithm>
-using namespace std;
 
 class Solution {
 public:
-	static double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+	static double findMedianSortedArrays(std::vector<int>& nums1, std::vector<int>& nums2) {
 		int s1 = nums1.size();
 		int s2 = nums2.size();
 		double med1 = (s1 % 2 == 0) ? (double)(nums1[s1 / 2 - 1] + nums1[s1 / 2]) / 2 : nums1[s1 / 2];
@@ -71,24 +70,24 @@ public:
 			}
 		}
 		else { // Both of the sizes are greater than 1
-			int cutLen = min(s1 / 2, s2 / 2);
-			vector<int>::iterator it1e, it1s, it2e, it2s;
+			int cutLen = std::min(s1 / 2, s2 / 2);
+			std::vector<int>::iterator it1e, it1s, it2e, it2s;
 			if (med1 >= med2) {
 				it1s = nums1.begin();
 				it1e = nums1.end() - cutLen;
-				vector<int> subNums1(it1s, it1e);
+				std::vector<int> subNums1(it1s, it1e);
 				it2s = nums2.begin() + cutLen;
 				it2e = nums2.end();
-				vector<int> subNums2(it2s, it2e);
+				std::vector<int> subNums2(it2s, it2e);
 				return findMedianSortedArrays(subNums1, subNums2);
 			}
 			else {
 				it1s = nums1.begin() + cutLen;
 				it1e = nums1.end();
-				vector<int> subNums1(it1s, it1e);
+				std::vector<int> subNums1(it1s, it1e);
 				it2s = nums2.begin();
 				it2e = nums2.end() - cutLen;
-				vector<int> subNums2(it2s, it2e);
+				std::vector<int> subNums2(it2s, it2e);
 				return findMedianSortedArrays(subNums1, subNums2);
 			}
 		}

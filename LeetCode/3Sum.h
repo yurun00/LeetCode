@@ -2,19 +2,18 @@
 
 #include <vector>
 #include <algorithm>
-using namespace std;
 
 class Solution {
 public:
-	static vector<vector<int>> threeSum(vector<int>& numSeq) {
-		vector<vector<int>> ans;
+	static std::vector<std::vector<int>> threeSum(std::vector<int>& numSeq) {
+		std::vector<std::vector<int>> ans;
 		if (numSeq.size() < 3)
 			return ans;
 		sort(numSeq.begin(), numSeq.end());
 
-		vector<int>::iterator itr1 = numSeq.begin();
-		vector<int>::iterator itr2;
-		vector<int>::iterator itr3;
+		std::vector<int>::iterator itr1 = numSeq.begin();
+		std::vector<int>::iterator itr2;
+		std::vector<int>::iterator itr3;
 		for (; itr1 != numSeq.end() - 2; ++itr1) {
 			itr2 = itr1 + 1;
 			itr3 = numSeq.end() - 1;
@@ -30,7 +29,7 @@ public:
 					continue;
 				}
 				if (*itr1 + *itr2 + *itr3 == 0) {
-					vector<int> tmp;	// Error if 'vector<int> tmp();'
+					std::vector<int> tmp;	// Error if 'vector<int> tmp();'
 					tmp.push_back(*itr1);
 					tmp.push_back(*itr2);
 					tmp.push_back(*itr3);

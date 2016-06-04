@@ -17,25 +17,24 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-using namespace std;
 
 class Solution {
 public:
-	static int lengthOfLongestSubstring(string s) {
+	static int lengthOfLongestSubstring(std::string s) {
 		if (s.size() < 2)
 			return s.size();
 		int curLen = 0;
 		int maxLen = 0;
-		vector<int> visit(256, -1);
+		std::vector<int> visit(256, -1);
 		for (int i = 0; i < int(s.size()) - 1; i++) {
 			if (visit[s[i]] == -1) {
 				curLen++;
 			}
 			else {
-				curLen = min(curLen + 1, i - visit[s[i]]);
+				curLen = std::min(curLen + 1, i - visit[s[i]]);
 			}
 			visit[s[i]] = i;
-			maxLen = max(curLen, maxLen);
+			maxLen = std::max(curLen, maxLen);
 		}
 		return maxLen;
 	}

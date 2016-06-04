@@ -3,11 +3,10 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-using namespace std;
 
 class Solution {
 public:
-	static bool isMatch(string s, string p) {
+	static bool isMatch(std::string s, std::string p) {
 		if (p.empty()) 
 			return s.empty();
 
@@ -20,7 +19,7 @@ public:
 			return !s.empty() && (s[0] == p[0] || p[0] == '.') && isMatch(s.substr(1), p.substr(1));
 	}
 
-	static bool isMatchDP(string s, string p) {
+	static bool isMatchDP(std::string s, std::string p) {
 
 		/*
 		 * m[i][j]: if s[0,...,i-1] matches p[0,...,j-1];
@@ -34,7 +33,7 @@ public:
 			return false;
 
 		int len1 = s.length(), len2 = p.length();
-		vector<vector<bool>> m(len1 + 1, vector<bool>(len2 + 1, false));
+		std::vector<std::vector<bool>> m(len1 + 1, std::vector<bool>(len2 + 1, false));
 
 		m[0][0] = true;
 
