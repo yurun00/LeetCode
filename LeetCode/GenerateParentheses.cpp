@@ -4,7 +4,8 @@
  * For example, given n = 3, a solution set is :
  * "((()))", "(()())", "(())()", "()(())", "()()()"
  */
-#include "GenerateParentheses.h"
+
+/*#include "GenerateParentheses.h"
 #include <iostream>
 using namespace std;
 
@@ -17,4 +18,4 @@ int main() {
 		cout << v[i] << endl;
 	}
 	return 0;
-}
+}*/
