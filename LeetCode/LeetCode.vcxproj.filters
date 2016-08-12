@@ -45,6 +45,9 @@
     <ClInclude Include="RemoveDuplicatesFromSortedArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RemoveElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp">
@@ -75,6 +78,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="RemoveDuplicatesFromSortedArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

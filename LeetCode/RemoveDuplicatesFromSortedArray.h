@@ -1,15 +1,14 @@
 #pragma once
 
 #include <vector>
-using namespace std;
 
 class Solution {
 public:
-	static int removeDuplicates(vector<int>& nums) {
+	static int removeDuplicates(std::vector<int>& nums) {
 		if (nums.size() < 2)
 			return nums.size();
-		vector<int>::iterator cur = nums.begin();
-		vector<int>::iterator nxt = cur + 1;
+		std::vector<int>::iterator cur = nums.begin();
+		std::vector<int>::iterator nxt = cur + 1;
 		int sz = 1;
 		while (nxt != nums.end()) {
 			if (*cur != *nxt) {

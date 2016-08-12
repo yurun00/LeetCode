@@ -9,7 +9,7 @@
  * It doesn't matter what you leave beyond the new length.
  */
 
-#include <iostream>
+/*#include <iostream>
 #include "RemoveDuplicatesFromSortedArray.h"
 using namespace std;
 
@@ -21,4 +21,4 @@ int main() {
 	for (vector<int>::iterator it = ivec.begin();it != ivec.end();it++)
 		cout << *it << endl;
 	return 0;
-}
+}*/
