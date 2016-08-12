@@ -27,6 +27,7 @@
     <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h" />
     <ClInclude Include="MedianOfTwoSortedArrays.h" />
     <ClInclude Include="RegularExpressionMatching.h" />
+    <ClInclude Include="RemoveDuplicatesFromSortedArray.h" />
     <ClInclude Include="ReverseNodesInKGroup.h" />
   </ItemGroup>
   <ItemGroup>
@@ -38,6 +39,7 @@
     <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
+    <ClCompile Include="RemoveDuplicatesFromSortedArray.cpp" />
     <ClCompile Include="ReverseNodesInKGroup.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
