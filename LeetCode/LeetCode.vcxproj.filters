@@ -54,6 +54,9 @@
     <ClInclude Include="SubstringWithConcatenationOfAllWords.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="NextPermutation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp">
@@ -93,6 +96,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SubstringWithConcatenationOfAllWords.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NextPermutation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

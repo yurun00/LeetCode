@@ -10,6 +10,8 @@ public:
 		std::vector<int> ans;
 		int slen = s.size();
 		int wsl = words.size();
+		if (slen <= 0 || wsl <= 0)
+			return ans;
 
 		std::map<std::string, int> dict;
 		for (int i = 0;i < wsl;++i)
