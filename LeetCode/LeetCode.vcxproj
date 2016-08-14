@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="3Sum.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
+    <ClInclude Include="DivideTwoIntegers.h" />
     <ClInclude Include="GenerateParentheses.h" />
     <ClInclude Include="LetterCombinationsOfAPhoneNumber.h" />
     <ClInclude Include="LongestPalindromicSubstring.h" />
@@ -34,6 +35,7 @@
   <ItemGroup>
     <ClCompile Include="3Sum.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
+    <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />

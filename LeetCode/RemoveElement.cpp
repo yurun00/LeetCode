@@ -7,7 +7,8 @@
  * Given input array nums = [3, 2, 2, 3], val = 3
  * Your function should return length = 2, with the first two elements of nums being 2.
  */
-#include <iostream>
+
+/*#include <iostream>
 #include "RemoveElement.h"
 using namespace std;
 
@@ -19,4 +20,4 @@ int main() {
 	for (vector<int>::iterator it = ivec.begin();it != ivec.end();it++)
 		cout << *it << endl;
 	return 0;
-}
+}*/

@@ -24,10 +24,15 @@ int main() {
 			pre->next = tmp;
 		pre = tmp;
 	}
-	tmp= Solution::reverseKGroup(head, 2);
+	tmp = Solution::reverseKGroup(head, 2);
 	for (int i = 1;i < 8;i++) {
 		cout << tmp->val << endl;
 		tmp = tmp->next;
+	}
+	while(head != NULL) {
+		tmp = head;
+		head = head->next;
+		delete tmp;
 	}
 	return 0;
 }*/
