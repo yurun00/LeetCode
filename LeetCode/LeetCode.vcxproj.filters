@@ -57,6 +57,12 @@
     <ClInclude Include="NextPermutation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LongestValidParentheses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidSudoku.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp">
@@ -99,6 +105,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="NextPermutation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LongestValidParentheses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidSudoku.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
