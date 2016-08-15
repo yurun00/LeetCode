@@ -26,6 +26,7 @@
     <ClInclude Include="LetterCombinationsOfAPhoneNumber.h" />
     <ClInclude Include="LongestPalindromicSubstring.h" />
     <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h" />
+    <ClInclude Include="LongestValidParentheses.h" />
     <ClInclude Include="MedianOfTwoSortedArrays.h" />
     <ClInclude Include="NextPermutation.h" />
     <ClInclude Include="RegularExpressionMatching.h" />
@@ -42,6 +43,7 @@
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
+    <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />

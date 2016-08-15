@@ -11,14 +11,14 @@
  * 1, 1, 5 ¡ú 1, 5, 1
  */
 
-#include <iostream>
+/*#include <iostream>
 #include "NextPermutation.h"
 using namespace std;
 
 int main() {
-	/*int ary1[3] = { 1,2,3 };
-	int ary2[3] = { 3,2,1 };
-	int ary3[3] = { 1,1,5 };*/
+	//int ary1[3] = { 1,2,3 };
+	//int ary2[3] = { 3,2,1 };
+	//int ary3[3] = { 1,1,5 };
 	int ary1[3] = { 1,2,1 };
 	int ary2[3] = { 1,3,2 };
 	int ary3[3] = { 2,3,1 };
@@ -38,7 +38,7 @@ int main() {
 		cout << *it << ". ";
 	cout << endl;
 	return 0;
-}
+}*/
 
 
 
