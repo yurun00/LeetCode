@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="3Sum.h" />
+    <ClInclude Include="CombinationSum.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="DivideTwoIntegers.h" />
     <ClInclude Include="GenerateParentheses.h" />
@@ -38,6 +39,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp" />
+    <ClCompile Include="CombinationSum.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
