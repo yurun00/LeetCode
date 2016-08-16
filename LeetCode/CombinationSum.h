@@ -16,7 +16,7 @@ public:
 		for(int t = 1;t <= target;++t) 
 			for (int c = 0;c < candidates.size();++c) 
 				if (candidates[c] <= t) {
-					std::vector<std::vector<int>>tmp = targetCombinations[t - candidates[c]];
+					std::vector<std::vector<int>> tmp = targetCombinations[t - candidates[c]];
 					for (int i = 0;i < tmp.size();++i)
 						tmp[i].push_back(candidates[c]);
 					targetCombinations[t].insert(targetCombinations[t].end(), tmp.begin(), tmp.end());
