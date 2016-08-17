@@ -6,7 +6,8 @@
  * and[3, 4, -1, 1] return 2.
  * Your algorithm should run in O(n) time and uses constant space.
  */
-#include <iostream>
+
+/*#include <iostream>
 #include "FirstMissingPositive.h"
 using namespace std;
 
@@ -18,4 +19,4 @@ int main() {
 	cout << Solution::firstMissingPositive(ivec1) << endl;
 	cout << Solution::firstMissingPositive(ivec2) << endl;
 	return 0;
-}
+}*/

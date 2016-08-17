@@ -37,6 +37,7 @@
     <ClInclude Include="RemoveElement.h" />
     <ClInclude Include="ReverseNodesInKGroup.h" />
     <ClInclude Include="SubstringWithConcatenationOfAllWords.h" />
+    <ClInclude Include="TrappingRainWater.h" />
     <ClInclude Include="ValidSudoku.h" />
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +59,7 @@
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="ReverseNodesInKGroup.cpp" />
     <ClCompile Include="SubstringWithConcatenationOfAllWords.cpp" />
+    <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
