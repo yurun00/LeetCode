@@ -24,6 +24,7 @@
     <ClInclude Include="CombinationSumII.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="DivideTwoIntegers.h" />
+    <ClInclude Include="FirstMissingPositive.h" />
     <ClInclude Include="GenerateParentheses.h" />
     <ClInclude Include="LetterCombinationsOfAPhoneNumber.h" />
     <ClInclude Include="LongestPalindromicSubstring.h" />
@@ -44,6 +45,7 @@
     <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
+    <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
