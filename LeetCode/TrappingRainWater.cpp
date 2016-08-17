@@ -12,7 +12,7 @@
  * |__|__|[]|__|__|[]|__|__|__|__|__|__|
  */
 
-#include <iostream>
+/*#include <iostream>
 #include "TrappingRainWater.h"
 using namespace std;
 
@@ -21,4 +21,4 @@ int main() {
 	vector<int> ivec(ary, ary + sizeof(ary) / sizeof(int));
 	cout << Solution::trap(ivec) << endl;
 	return 0;
-}
+}*/
