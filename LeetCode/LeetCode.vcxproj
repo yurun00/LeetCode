@@ -33,6 +33,7 @@
     <ClInclude Include="LongestValidParentheses.h" />
     <ClInclude Include="MedianOfTwoSortedArrays.h" />
     <ClInclude Include="NextPermutation.h" />
+    <ClInclude Include="NQueens.h" />
     <ClInclude Include="PermutationsII.h" />
     <ClInclude Include="PowXN.h" />
     <ClInclude Include="RegularExpressionMatching.h" />
@@ -58,6 +59,7 @@
     <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
+    <ClCompile Include="NQueens.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
     <ClCompile Include="PowXN.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
