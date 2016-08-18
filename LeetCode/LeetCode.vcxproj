@@ -34,6 +34,7 @@
     <ClInclude Include="MedianOfTwoSortedArrays.h" />
     <ClInclude Include="NextPermutation.h" />
     <ClInclude Include="PermutationsII.h" />
+    <ClInclude Include="PowXN.h" />
     <ClInclude Include="RegularExpressionMatching.h" />
     <ClInclude Include="RemoveDuplicatesFromSortedArray.h" />
     <ClInclude Include="RemoveElement.h" />
@@ -58,6 +59,7 @@
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
+    <ClCompile Include="PowXN.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />
     <ClCompile Include="RemoveDuplicatesFromSortedArray.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
