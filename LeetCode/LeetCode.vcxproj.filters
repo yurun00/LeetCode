@@ -78,6 +78,9 @@
     <ClInclude Include="JumpGameII.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PermutationsII.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp">
@@ -141,6 +144,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="JumpGameII.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PermutationsII.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

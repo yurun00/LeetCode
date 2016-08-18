@@ -10,7 +10,7 @@
  *	You can assume that you can always reach the last index.
  */
 
-#include <iostream>
+/*#include <iostream>
 #include "JumpGameII.h"
 using namespace std;
 
@@ -19,4 +19,4 @@ int main() {
 	vector<int> ivec(ary, ary + sizeof(ary) / sizeof(int));
 	cout << Solution::jump(ivec) << endl;
 	return 0;
-}
+}*/
