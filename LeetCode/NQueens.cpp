@@ -18,7 +18,7 @@
  * ]
  */
 
-#include <iostream>
+/*#include <iostream>
 #include "NQueens.h"
 using namespace std;
 
@@ -30,4 +30,4 @@ int main() {
 		cout << endl;
 	}
 	return 0;
-}
+}*/
