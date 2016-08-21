@@ -50,6 +50,7 @@
     <ClInclude Include="SubstringWithConcatenationOfAllWords.h" />
     <ClInclude Include="TrappingRainWater.h" />
     <ClInclude Include="ValidSudoku.h" />
+    <ClInclude Include="WordSearch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp" />
@@ -83,6 +84,7 @@
     <ClCompile Include="SubstringWithConcatenationOfAllWords.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
+    <ClCompile Include="WordSearch.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{57E2A974-F29B-4D77-9A95-E1114E1DDC2D}</ProjectGuid>
