@@ -105,6 +105,9 @@
     <ClInclude Include="Combinations.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Subsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp">
@@ -195,6 +198,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Combination.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Subsets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
