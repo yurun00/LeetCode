@@ -7,7 +7,7 @@
  * c) Replace a character
  */
 
-#include <iostream>
+/*#include <iostream>
 #include "EditDistance.h"
 using namespace std;
 
@@ -16,4 +16,4 @@ int main() {
 	string word2 = "bcda";
 	cout << Solution::minDistance(word1, word2) << endl;
 	return 0;
-}
+}*/
