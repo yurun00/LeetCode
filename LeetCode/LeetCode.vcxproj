@@ -43,6 +43,7 @@
     <ClInclude Include="RemoveElement.h" />
     <ClInclude Include="ReverseNodesInKGroup.h" />
     <ClInclude Include="SetMatrixZeroes.h" />
+    <ClInclude Include="SortColors.h" />
     <ClInclude Include="SubstringWithConcatenationOfAllWords.h" />
     <ClInclude Include="TrappingRainWater.h" />
     <ClInclude Include="ValidSudoku.h" />
@@ -72,6 +73,7 @@
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="ReverseNodesInKGroup.cpp" />
     <ClCompile Include="SetMatrixZeroes.cpp" />
+    <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="SubstringWithConcatenationOfAllWords.cpp" />
     <ClCompile Include="TrappingRainWater.cpp" />
     <ClCompile Include="ValidSudoku.cpp" />
