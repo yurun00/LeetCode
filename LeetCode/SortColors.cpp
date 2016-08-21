@@ -12,7 +12,7 @@
  * Could you come up with an one - pass algorithm using only constant space ?
  */
 
-#include <iostream>
+/*#include <iostream>
 #include "SortColors.h"
 using namespace std;
 
@@ -23,4 +23,4 @@ int main() {
 	for (int i = 0;i < ivec.size();++i)
 		cout << ivec[i] << endl;
 	return 0;
-}
+}*/

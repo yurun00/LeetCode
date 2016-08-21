@@ -99,6 +99,9 @@
     <ClInclude Include="SortColors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MinimumWindowSubstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp">
@@ -183,6 +186,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SortColors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MinimumWindowSubstring.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

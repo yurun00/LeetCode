@@ -34,6 +34,7 @@
     <ClInclude Include="LongestValidParentheses.h" />
     <ClInclude Include="MedianOfTwoSortedArrays.h" />
     <ClInclude Include="MinimumPathSum.h" />
+    <ClInclude Include="MinimumWindowSubstring.h" />
     <ClInclude Include="NextPermutation.h" />
     <ClInclude Include="NQueens.h" />
     <ClInclude Include="PermutationsII.h" />
@@ -64,6 +65,7 @@
     <ClCompile Include="LongestValidParentheses.cpp" />
     <ClCompile Include="MedianOfTwoSortedArrays.cpp" />
     <ClCompile Include="MinimumPathSum.cpp" />
+    <ClCompile Include="MinimumWindowSubstring.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NQueens.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
