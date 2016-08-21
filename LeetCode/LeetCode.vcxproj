@@ -24,6 +24,7 @@
     <ClInclude Include="CombinationSumII.h" />
     <ClInclude Include="ContainerWithMostWater.h" />
     <ClInclude Include="DivideTwoIntegers.h" />
+    <ClInclude Include="EditDistance.h" />
     <ClInclude Include="FirstMissingPositive.h" />
     <ClInclude Include="GenerateParentheses.h" />
     <ClInclude Include="JumpGameII.h" />
@@ -51,6 +52,7 @@
     <ClCompile Include="CombinationSumII.cpp" />
     <ClCompile Include="ContainerWithMostWater.cpp" />
     <ClCompile Include="DivideTwoIntegers.cpp" />
+    <ClCompile Include="EditDistance.cpp" />
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="JumpGameII.cpp" />

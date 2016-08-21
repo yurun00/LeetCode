@@ -4,18 +4,12 @@
  * Note: You can only move either down or right at any point in time.
  */
 
-#include <iostream>
+/*#include <iostream>
 #include "MinimumPathSum.h"
 using namespace std;
 
 int main() {
-	/*
-	 2 8 4 9
-	 1 7 9 3
-	 4 6 2 1
-
-	 16
-	 */
+    //16
 	int ary[3][4] = { 2,8,4,9,1,7,9,3,4,6,2,1 };
 	vector<vector<int>> grid(3, vector<int>(4, 0));
 	for (int i = 0;i < grid.size();++i)
@@ -23,4 +17,4 @@ int main() {
 			grid[i][j] = ary[i][j];
 	cout << Solution::minPathSum(grid) << endl;
 	return 0;
-}
+}*/

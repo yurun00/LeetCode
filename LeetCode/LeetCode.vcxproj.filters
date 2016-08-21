@@ -90,6 +90,9 @@
     <ClInclude Include="MinimumPathSum.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="EditDistance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp">
@@ -165,6 +168,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MinimumPathSum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDistance.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
