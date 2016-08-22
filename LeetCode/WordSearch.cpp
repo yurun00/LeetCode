@@ -15,7 +15,7 @@
  * word = "ABCB", ->returns false.
  */
 
-#include <iostream>
+/*#include <iostream>
 #include "WordSearch.h"
 using namespace std;
 
@@ -34,4 +34,4 @@ int main() {
 	cout << Solution::exist(board, word2) << endl;
 	cout << Solution::exist(board, word3) << endl;
 	return 0;
-}
+}*/

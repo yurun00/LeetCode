@@ -29,6 +29,7 @@
     <ClInclude Include="FirstMissingPositive.h" />
     <ClInclude Include="GenerateParentheses.h" />
     <ClInclude Include="JumpGameII.h" />
+    <ClInclude Include="LargestRectangleInHistogram.h" />
     <ClInclude Include="LetterCombinationsOfAPhoneNumber.h" />
     <ClInclude Include="LongestPalindromicSubstring.h" />
     <ClInclude Include="LongestSubstringWithoutRepeatingCharacters.h" />
@@ -63,6 +64,7 @@
     <ClCompile Include="FirstMissingPositive.cpp" />
     <ClCompile Include="GenerateParentheses.cpp" />
     <ClCompile Include="JumpGameII.cpp" />
+    <ClCompile Include="LargestRectangleInHistogram.cpp" />
     <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
