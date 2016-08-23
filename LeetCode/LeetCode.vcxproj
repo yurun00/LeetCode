@@ -40,6 +40,7 @@
     <ClInclude Include="MinimumWindowSubstring.h" />
     <ClInclude Include="NextPermutation.h" />
     <ClInclude Include="NQueens.h" />
+    <ClInclude Include="PartitionList.h" />
     <ClInclude Include="PermutationsII.h" />
     <ClInclude Include="PowXN.h" />
     <ClInclude Include="RegularExpressionMatching.h" />
@@ -76,6 +77,7 @@
     <ClCompile Include="MinimumWindowSubstring.cpp" />
     <ClCompile Include="NextPermutation.cpp" />
     <ClCompile Include="NQueens.cpp" />
+    <ClCompile Include="PartitionList.cpp" />
     <ClCompile Include="PermutationsII.cpp" />
     <ClCompile Include="PowXN.cpp" />
     <ClCompile Include="RegularExpressionMatching.cpp" />

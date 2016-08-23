@@ -10,7 +10,7 @@
 * Return 6.
 */
 
-#include <iostream>
+/*#include <iostream>
 #include "MaximalRectangle.h"
 using namespace std;
 
@@ -25,4 +25,4 @@ int main() {
 			matrix[i][j] = ary[i][j];
 	cout << Solution::maximalRectangle(matrix) << endl;
 	return 0;
-}
+}*/
