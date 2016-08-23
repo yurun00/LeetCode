@@ -120,6 +120,9 @@
     <ClInclude Include="PartitionList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ScrambleString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3Sum.cpp">
@@ -225,6 +228,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="PartitionList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrambleString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -7,7 +7,7 @@
  * return 1->2->2->4->3->5.
  */
 
-#include <iostream>
+/*#include <iostream>
 #include "PartitionList.h"
 using namespace std;
 
@@ -33,4 +33,4 @@ int main() {
 		delete tmp;
 	}
 	return 0;
-}
+}*/

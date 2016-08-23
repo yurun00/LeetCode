@@ -47,6 +47,7 @@
     <ClInclude Include="RemoveDuplicatesFromSortedArray.h" />
     <ClInclude Include="RemoveElement.h" />
     <ClInclude Include="ReverseNodesInKGroup.h" />
+    <ClInclude Include="ScrambleString.h" />
     <ClInclude Include="SetMatrixZeroes.h" />
     <ClInclude Include="SortColors.h" />
     <ClInclude Include="Subsets.h" />
@@ -84,6 +85,7 @@
     <ClCompile Include="RemoveDuplicatesFromSortedArray.cpp" />
     <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="ReverseNodesInKGroup.cpp" />
+    <ClCompile Include="ScrambleString.cpp" />
     <ClCompile Include="SetMatrixZeroes.cpp" />
     <ClCompile Include="SortColors.cpp" />
     <ClCompile Include="Subsets.cpp" />
