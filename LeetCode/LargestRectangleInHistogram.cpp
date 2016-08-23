@@ -7,7 +7,7 @@
  * return 10.
  */
 
-#include <iostream>
+/*#include <iostream>
 #include "LargestRectangleInHistogram.h"
 using namespace std;
 
@@ -16,4 +16,4 @@ int main() {
 	vector<int> heights(ary, ary + sizeof(ary) / sizeof(int));
 	cout << Solution::largestRectangleArea(heights) << endl;
 	return 0;
-}
+}*/

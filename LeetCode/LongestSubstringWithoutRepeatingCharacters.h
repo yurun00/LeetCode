@@ -26,7 +26,7 @@ public:
 		int curLen = 0;
 		int maxLen = 0;
 		std::vector<int> visit(256, -1);
-		for (int i = 0; i < int(s.size()) - 1; i++) {
+		for (int i = 0; i < int(s.size()); i++) {
 			if (visit[s[i]] == -1) {
 				curLen++;
 			}
